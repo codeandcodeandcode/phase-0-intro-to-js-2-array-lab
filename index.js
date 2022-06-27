@@ -15,3 +15,8 @@ let destructivelyPrependCat = (name)=>{
 let destructivelyRemoveLastCat = ()=>{
     cats.pop();
 }
+
+// Created a func destructivelyRemoveFirstCat
+function destructivelyRemoveFirstCat(){
+    cats.shift()
+}
