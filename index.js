@@ -34,3 +34,10 @@ function prependCat(name){
     na.push(name, ...cats)
     return na;
 }
+
+// Used a spread operator to remove the last element 
+function removeLastCat(){
+    let na=[...cats];
+    na.pop();
+    return na;
+}
