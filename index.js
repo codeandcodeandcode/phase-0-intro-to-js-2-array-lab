@@ -27,3 +27,10 @@ function appendCat(name){
      na.push(...cats, name)
      return na;
 }
+
+// Create the prependcat func  to add a name to the start and return a new array without modyfing the original
+function prependCat(name){
+    let na = [];
+    na.push(name, ...cats)
+    return na;
+}
