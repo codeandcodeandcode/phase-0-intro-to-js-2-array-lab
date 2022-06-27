@@ -11,3 +11,7 @@ let destructivelyPrependCat = (name)=>{
     cats.unshift(name);
 }
 
+// Created the destructivelyRemoveLastCat func 
+let destructivelyRemoveLastCat = ()=>{
+    cats.pop();
+}
