@@ -20,3 +20,10 @@ let destructivelyRemoveLastCat = ()=>{
 function destructivelyRemoveFirstCat(){
     cats.shift()
 }
+
+// Created a func appendCat 
+function appendCat(name){
+    let na = [];
+     na.push(...cats, name)
+     return na;
+}
