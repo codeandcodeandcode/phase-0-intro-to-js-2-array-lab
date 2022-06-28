@@ -41,3 +41,11 @@ function removeLastCat(){
     na.pop();
     return na;
 }
+
+// Created a removefirst func 
+function removeFirstCat(name){
+    let na=[...cats];
+    na.shift();
+    return na;
+}
+
