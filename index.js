@@ -49,3 +49,6 @@ function removeFirstCat(name){
     return na;
 }
 
+// Tested 
+console.log(removeLastCat("jimmy"));
+console.log(cats);
